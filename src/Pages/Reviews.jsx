@@ -135,7 +135,7 @@ const Reviews = () => {
 
 
   return (
-    <section id='reviews' className='min-h-screen flex flex-col items-center justify-center md:px-32 bg-gradient-to-tr from-white to-gray-300 text-gray-950 p-5 dark:bg-gradient-to-br dark:from-black dark:to-gray-700 dark:text-white duration-200'>
+    <section id='reviews' className='min-h-screen flex flex-col items-center justify-center md:px-32 text-white duration-200'>
       <h1 className='text-4xl font-semibold text-center lg:pt-16 pt-24 pb-10'>Customer's Review</h1>
 
       <div

@@ -38,7 +38,7 @@ const DishesCard = (props) => {
 
   return (
     
-    <Link to={`/dish/${dishId}`} className=' p-5 hover:scale-110 hover:bg-gradient-to-br from-gray-300 to-gray-400 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer'>
+    <Link to={`/dish/${dishId}`} className=' p-5 hover:scale-105 backdrop-brightness-50 rounded-lg cursor-pointer'>
       <div >
       <img className='rounded-xl justify-center' src={props.img} alt={props.title} />
       <div className='space-y-4'>

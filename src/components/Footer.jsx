@@ -1,98 +1,4 @@
-// import React from "react";
-// import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaWhatsapp } from "react-icons/fa";
-// import { Link } from "react-scroll";
-// import { FaLocationDot } from "react-icons/fa6";
 
-// const Footer = () => {
-//   return (
-//     <div className="container border border-black bg-gradient-to-br from-white to-gray-300 text-gray-950 p-5 dark:bg-gradient-to-tr dark:from-black dark:to-gray-700 dark:text-white duration-200 mt-8 md:mt-0">
-//       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
-//         <div className="w-full md:w-1/4">
-//           <h1 className="font-semibold text-xl pb-4">TevaOnTime</h1>
-//           <p className="text-sm">A haven of love, peace, joy, food and drinks</p>
-//           <div>
-//           <a className="" href="https://www.google.com/maps/place/Teva+on+time/@-1.1620612,36.9654407,17z/data=!4m14!1m7!3m6!1s0x182f410022fd0503:0x2d1af75a369836d3!2sTeva+on+time!8m2!3d-1.1620612!4d36.9654407!16s%2Fg%2F11wpsgtxwd!3m5!1s0x182f410022fd0503:0x2d1af75a369836d3!8m2!3d-1.1620612!4d36.9654407!16s%2Fg%2F11wpsgtxwd?entry=ttu&g_ep=EgoyMDI1MDQyMS4wIKXMDSoASAFQAw%3D%3D ">
-//             <FaLocationDot/>Our Location</a>
-//           </div>
-//         </div>
-//       <div>
-//         <h1 className="font-medium text-xl pb-4 pt-5 md:pt-0">Links</h1>
-//         <nav className="flex flex-col gap-2">
-//         <Link
-//           to="home"
-//           spy={true}
-//           smooth={true}
-//           duration={500}
-//           className="hover:text-brightColor transition-all cursor-pointer"
-//           href="">Home
-//           </Link>
-//           <Link
-//           to="dishes"
-//           spy={true}
-//           smooth={true}
-//           duration={500}
-//           className="hover:text-brightColor transition-all cursor-pointer"
-//           href="">Dishes
-//           </Link>
-            
-          
-//           <Link
-//           to="about"
-//           spy={true}
-//           smooth={true}
-//           duration={500}
-//           className="hover:text-brightColor transition-all cursor-pointer"
-//           href="">About
-//           </Link>
-//           <Link
-//           to="reviews"
-//           spy={true}
-//           smooth={true}
-//           duration={500}
-//           className="hover:text-brightColor transition-all cursor-pointer"
-//           href="">Reviews
-//           </Link>
-          
-//         </nav>
-//       </div>
-//         <div>
-//         <h1 className="font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
-//         <nav className="flex flex-col gap-2">
-//           <a
-//             className="hover:text-brightColor transition-all cursor-pointer"
-//             href=""
-//           >
-//             tevaontime@gmail.com
-//           </a>
-//           <a
-//             className="hover:text-brightColor transition-all cursor-pointer"
-//             href=""
-//           >
-//             0114409633
-//           </a>
-//           <div className="flex space-x-4 mt-4">
-//             <a href="https://facebook.com"><FaFacebook style={{ color: "#3b5998" }} /></a>
-//             <a href="https://x.com/gbSKG257?t=2grn-XsFHi_GOpWO_HSTYA&s=08 "><FaTwitter style={{ color: "#1da1f2" }} /></a>
-//             <a href="https://www.instagram.com/invites/contact/?igsh=jbwwumbaz28a&utm_content=okuoail "><FaInstagram style={{ color: "#e4405f" }} /></a>
-//             <a href="https://www.tiktok.com/@samuelkamau205?_t=ZM-8tYM5G3tAPO&_r=1"><FaTiktok style={{ color: "#010101" }} /></a>
-//             <a href="https://wa.me/message/CVIX6VY5YDPYB1 "><FaWhatsapp style={{ color: "#25d366" }} /></a>
-//           </div>
-          
-         
-//         </nav>
-//       </div>
-//       </div>
-//       <div>
-//         <p className="text-center p-4">
-//           @copyright 2025 |All rights reserved
-//         </p>
-//         <p>Developed by Gachwe</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Footer;
 import React from "react";
 import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-scroll";
@@ -100,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className=" bg-gradient-to-br from-white to-gray-300 text-gray-950 p-5 dark:bg-gradient-to-tr dark:from-black dark:to-gray-700 dark:text-white duration-200 ">
+    <div className="backdrop-brightness-50  p-5 text-white duration-200 ">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className="w-full md:w-1/4">
           <h1 className="font-semibold text-xl pb-4">TevaOnTime</h1>

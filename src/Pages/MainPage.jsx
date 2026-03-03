@@ -4,6 +4,8 @@ import HomeSection from './Home';
 import DishesSection from './Dishes';
 import AboutSection from './About';
 import ReviewsSection from './Reviews';
+import woodbg from "/Image/woodbg2.jpg";
+
 
 const MainPage = ({ onSectionChange }) => {
   const homeRef = useRef(null);
@@ -48,7 +50,8 @@ const MainPage = ({ onSectionChange }) => {
   }, [onSectionChange, currentActiveSection]); // Added currentActiveSection to dependencies
 
   return (
-    <main>
+    <main       style={{ backgroundImage: `url(${woodbg})` }}>
+    
       <div ref={homeRef} id='home'><HomeSection /></div>
       <div ref={dishesRef} id='dishes'><DishesSection /></div>
       <div ref={aboutRef} id='about'><AboutSection /></div>
